@@ -1,0 +1,189 @@
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical|right">
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:background="@android:color/holo_red_light"
+                        tools:ignore="NewApi">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Love the way you.."
+                            android:id="@+id/textView"
+                            android:layout_gravity="left|center_vertical"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Medium Text"
+                            android:id="@+id/textView2"
+                            android:layout_gravity="left|center_vertical"/>
+
+                    <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="txtCurrent"
+                                android:id="@+id/textView3"
+                                android:singleLine="true"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="txtEnd"
+                                android:id="@+id/textView4"
+                                android:layout_alignParentTop="false"
+                                android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+
+                    <SeekBar
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/seekBar"
+                            />
+
+                </LinearLayout>
+
+                <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/imageView"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_launcher"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2">
+
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="New Button"
+                        android:id="@+id/button4"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_red_light"
+
+                        tools:ignore="NewApi"/>
+
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="New Button"
+                        android:id="@+id/button5"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_blue_light"
+
+                        tools:ignore="NewApi"/>/>
+
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="New Button"
+                        android:id="@+id/button6"
+                        android:layout_weight="1"
+
+                        android:background="@android:color/holo_green_light"
+
+                        tools:ignore="NewApi"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3">
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/button"
+                    android:layout_weight="1"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    android:textAppearance="@drawable/ic_launcher"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/button3"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical|bottom|left">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button7"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button8"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button9"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
